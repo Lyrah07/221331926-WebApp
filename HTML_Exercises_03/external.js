@@ -1,0 +1,1 @@
+alert("Welcome to my webpage! File testing from external.js")
