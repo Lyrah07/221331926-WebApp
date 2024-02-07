@@ -14,7 +14,7 @@
         <h2>Brand Topic</h2>
         <p> <abbr title="Republic of Gamers">ROG</abbr> a brand of gaming Hardware and Software <br>
             <cite>- Asus brand</cite> </p>
-            
+
         <address>
             <strong>Republic of Gamers</strong> <br>
             123 <b>Gaming</b> Street <br>
@@ -43,7 +43,7 @@
         <b>ME:</b> Lost in thought...     wait what was i'm again...   can't      remember
     </pre>
 
-    <q>When the charger forgots to charge you phone</q> <br>
+    <q>When the charger forgots to charge your phone</q> <br>
     <label for="file">Battery Status:</label>
     <progress id="file" value="27" max="100"> 27% </progress>
     <p><samp>The chord is disconnected.</samp></p>
@@ -54,8 +54,35 @@
     </ruby> </q> for their ign. </p>
     
     <br>
-    <p>alligned down is<sub>subscript</sub> and alligned up is <sup>supercript</sup></p>
+    <p>alligned down is<sub>subscript</sub> and <wbr> alligned up is <sup>supercript</sup> </wbr></p>
     <p></p>
     
+    <br>
+    <section>
+        <p><s>Realme 9 Pro price: P8,474.00</s></p>
+        <p>Current Price: P14,999.00</p>
+    </section>
+    
+    
+    <p>Click the <u>button</u> below to display the hidden content.</p>
+    <button onclick="showContent()">Show hidden content</button>
+
+    <template>
+        <h2>ROG</h2>
+        <img src="ROG_Logo.png" width="250" height="225">
+    </template>
+
+    <script>
+        function showContent() {
+            let temp = document.getElementsByTagName("template")[0];
+            let clon = temp.content.cloneNode(true);
+            document.body.appendChild(clon)
+        }
+    </script>
+
+    <p>The school opens at <time>7:00</time> everyday</p>
+
+    <p>When <var>x</var> and <var>y</var> is the variable, mostly used in mathematics? </p>
+
 </body>
 </html>
