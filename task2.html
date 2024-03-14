@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    <style type="text/css">
+        .background {
+            background: transparent; 
+        }
+        .head {
+            background: yellow;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto; 
+            position: relative;
+        }
+        .eyeball {
+            background: black;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 20px;
+            left: 15px;
+        }
+        .pupil {
+            color: white;
+        }
+        .beak {
+            color: grey;
+            position: absolute;
+            top: 30px;
+            right: 79px;
+            transform: rotate(180deg);
+        }
+        .body {
+            background: #ffcc00;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border-radius: 75px 75px 75px 75px;
+            position: relative;
+            top: -20px;
+        }
+        .wing {
+            transform: rotate(-160deg);
+            color: yellowgreen;
+            font-size: 80px;
+            height: auto;
+            width: auto;
+            background: greenyellow;
+            border-radius: 60%;
+        }
+        .drumstick {
+            color: orange;
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            transform: rotate(45deg);
+            font-size: 30px;
+            top: 200px;
+            left: 725px; 
+        }
+        .drumstick-right {
+            color: orange;
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            transform: rotate(-45deg);
+            font-size: 30px;
+            top: 160px;
+            left: 800px; 
+        }
+    </style>
+    <div class="canvas background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong>&lt;
+                </strong>
+            </div>
+        </div>
+        <div class="drumsticks">
+            <div class="drumstick">|
+                <br />/|
+            </div>
+            <div class="drumstick drumstick-right">|
+                <br />/|
+            </div>
+        </div>
+    </div>
+</body>
+</html>
