@@ -53,6 +53,9 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
+.nav-link:hover {
+  background-color: #bababe;
+}
 
 #main-doc {
   position: absolute;
