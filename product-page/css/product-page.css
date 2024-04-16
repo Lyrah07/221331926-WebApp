@@ -58,7 +58,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: whitesmoke;
 }
 
 @media (max-width: 600px) {
@@ -218,9 +218,16 @@ nav > ul {
   justify-content: center;
 }
 
-#how-it-works > iframe {
+#how-it-works > img {
   max-width: 560px;
-  width: 100%;
+  width: 75%;
+  border-radius: 50%;
+}
+
+#content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 #pricing {
